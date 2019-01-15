@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### 使用django-allauth进行注册登录，重置密码，邮件验证
 - 用户注册
 - 用户登录
@@ -175,3 +176,6 @@ ACCOUNT_LOGOUT_REDIRECT_URL (="/") 设置退出登录后跳转链接
     ```
   - 要告诉django-allauth使用我们自定义的登录表单，我们只需要在settings.py里加入一行。
     ACCOUNT_SIGNUP_FORM_CLASS = 'users.forms.SignupForm'
+=======
+# django_allauth
+>>>>>>> 73570d3caa04dd5bae67d67e4ee2e8f3bb8e9040
